@@ -16,7 +16,7 @@ st.markdown("<h1 style='text-align: center;'>Calcul des Heures de Récupération
 temps_trajet = st.selectbox("Temps habituel Maison <> Travail :", ["30 min", "45 min", "60 min", "90 min", "120 min"])
 
 # Choix du pays
-pays = st.selectbox("Choisir le pays de destination :", ["Côte d'Ivoire", "Madagascar", "Maroc", "Portugal", "Sénégal"])
+pays = st.selectbox("Choisir le pays de destination :", ["", "Côte d'Ivoire", "Madagascar", "Maroc", "Portugal", "Sénégal"])
 
 st.markdown("<h3 style='text-align: center;'>--- Trajet Aller ---</h3>", unsafe_allow_html=True)
 
